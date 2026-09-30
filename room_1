@@ -1,0 +1,5 @@
+print('Please provide enter your first and last name')
+name = input('>')
+print('Error', name, 'not found')
+print('Please try again')
+user_attempt = ('>')
