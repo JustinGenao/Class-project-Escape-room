@@ -1,4 +1,4 @@
-print("🔐 SECOND DOOR: WIRE CHALLENGE")
+print(" SECOND DOOR: WIRE CHALLENGE")
 
 print("Choose the correct wire before time runs out!")
 
@@ -14,15 +14,15 @@ end = time.time()
 
 if end - start > 5:
 
-    print("⏰ Too slow! Hacker detected. GAME OVER!")
+    print(" Too slow! Hacker detected. GAME OVER!")
 
 elif choice == correct_wire:
 
-    print("✅ Correct wire! Door unlocked.")
+    print(" Correct wire! Door unlocked.")
 
 else:
 
-    print("❌ Wrong wire!")
+    print(" Wrong wire!")
 
     print("The correct wire was:", correct_wire)
 
